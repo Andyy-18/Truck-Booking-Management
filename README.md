@@ -112,12 +112,17 @@ TruckBookingProject/
 ## 🧑‍💻 **Author**
 
 **Aninda Banerjee**  
-Salesforce Developer  
-Feel free to connect on LinkedIn!
+![Role](https://img.shields.io/badge/Salesforce-Developer-blue?logo=salesforce)
+![Company](https://img.shields.io/badge/Cognizant-CTS-blue?logo=cognizant)
+
+Connect with me on LinkedIn 👇  
+👉 [Aninda Banerjee](https://www.linkedin.com/in/anindabanerjee18)
+
+
 
 ---
 
 ## ⭐ **If you like this project, give the repo a star!**  
-This helps recruiters notice your work. 🌟
+
 
 ---
