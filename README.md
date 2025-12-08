@@ -62,7 +62,7 @@ TruckBookingProject/
     │   ├── home1/
     │   ├── booking1/
     │   └── myOrder/
-
+```bash
 
 ---
 
