@@ -49,9 +49,7 @@ TruckBookingProject/
 │   └── Truck.pdf
 │
 ├── screenshots/
-│   ├── home.png
-│   ├── booking.png
-│   └── myorders.png
+│   └── Experience Cloud App.pdf
 │
 └── force-app/main/default/
     ├── classes/
