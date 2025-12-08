@@ -110,20 +110,13 @@ TruckBookingProject/
 ---
 
 ## 🧑‍💻 **Author**
-## 🧑‍💻 **Author**
 
-<table>
-  <tr>
-    <td>
-      <strong>Aninda Banerjee</strong><br/>
-      Salesforce Developer @ Cognizant (CTS)<br/><br/>
-      <a href="https://www.linkedin.com/in/anindabanerjee18">LinkedIn Profile</a>
-    </td>
-    <td>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Cognizant_logo_2022.svg" height="50"/>
-    </td>
-  </tr>
-</table>
+**Aninda Banerjee**  
+_Salesforce Developer @ Cognizant (CTS)_
+📍 India  
+💼 CRM, Apex, LWC, Experience Cloud  
+🔗 Connect on LinkedIn → [Aninda Banerjee](https://www.linkedin.com/in/anindabanerjee18)
+
 
 ---
 
