@@ -1,0 +1,50 @@
+<template>
+    <lightning-card title={brandTitle} lwc:if={showTrucks}>
+        <lightning-button label="Previous" onclick={goBack} icon-name="utility:back" class="slds-m-bottom_small"></lightning-button>
+        <template if:true={trucks}>
+            <div class="slds-grid slds-wrap">
+                <template for:each={trucks} for:item="truck">
+                    <div class="slds-col slds-size_1-of-2 slds-p-around_small" key={truck.Id}>
+                        <div class="slds-grid slds-wrap">
+                            <div class="slds-col slds-size_1-of-2">
+                                <h3>Truck Name: {truck.Name}</h3>
+                                <h3>Cost of Booking: {truck.Cost_of_Booking__c}</h3>
+                                <h3>Maximum Load: {truck.Maximum_Load__c}</h3>
+                            </div>
+                            <div class="slds-col slds-size_1-of-2">
+                                <img src={brandImage} alt="Truck Image" />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="slds-grid slds-grid_align-end">
+                            <div class="slds-col">
+                                <lightning-button variant="brand" label="Add to Cart" onclick={handleClick} name="add" data-id={truck.Id}></lightning-button>
+                            </div>
+                            &nbsp;
+                            <div class="slds-col slds-p-left_x-small">
+                                <lightning-button variant="brand" label="Book" onclick={handleClick} name="book" data-id={truck.Id}></lightning-button>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </template>
+        <template if:true={error}>
+            <p>Error loading trucks: {error.message}</p>
+        </template>
+    </lightning-card>
+
+    <lightning-card title="My Details" lwc:if={bookcon}>
+        <template lwc:if={recordId}>
+            <lightning-record-edit-form object-api-name="Contact" record-id={recordId} onsuccess={handleSuccess}>
+                <lightning-messages></lightning-messages>
+                <lightning-input-field field-name='FirstName'></lightning-input-field>
+                <lightning-input-field field-name='LastName'></lightning-input-field>
+                <lightning-input-field field-name='Email'></lightning-input-field>
+                <lightning-input-field field-name='Phone'></lightning-input-field>
+                <lightning-button variant="brand" label="Back" onclick={handleClick} name="back"></lightning-button>
+                <lightning-button variant="brand" label="Next" name="save" type="submit"></lightning-button>
+            </lightning-record-edit-form>
+        </template>
+    </lightning-card>
+</template>

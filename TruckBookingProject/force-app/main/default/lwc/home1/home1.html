@@ -1,0 +1,43 @@
+<template>
+    <template if:false={selectedBrand}>
+        <lightning-card lwc:if={s1}>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col slds-size_1-of-2 slds-grid slds-grid_vertical slds-grid_align-center slds-grid_vertical-align-center">
+                    <br/>
+                    <h1 class="slds-text-heading_medium">Quick Actions</h1>
+                    <br/>
+                    <lightning-button label="Book a Truck" onclick={handleClick} name="createBooking" variant="brand" class="slds-p-top_small"></lightning-button>
+                    <br/>
+                    <lightning-button variant="brand" label="My Orders" onclick={handleClick} name="myOrders"></lightning-button>
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning-card title="Truck Brands">
+                        <lightning-carousel>
+                            <template for:each={brands} for:item="brand">
+                                <lightning-carousel-image key={brand.value} src={brand.image} header={brand.label} description="Click to view trucks" onclick={handleBrandClick} data-brand={brand.value}></lightning-carousel-image>
+                            </template>
+                        </lightning-carousel>
+                    </lightning-card>
+                </div>
+            </div>
+        </lightning-card>
+        <template if:true={s}>
+            <lightning-card title="Brands Available">
+                <div class="slds-grid slds-wrap a">
+                    <div class="slds-col slds-size_6-of-12 slds-p-around_small brand-cards">
+                        <h3>Mahindra</h3>
+                        <img src={mah} onclick={handleBrandClick} data-brand="Mahindra"/>
+                    </div>
+                    <div class="slds-col slds-size_6-of-12 slds-p-around_small brand-cards">
+                        <h3>TataMotors</h3>
+                        <img src={tata} onclick={handleBrandClick} data-brand="TataMotors"/>
+                    </div>
+                    <div class="slds-col slds-size_6-of-12 slds-p-around_small brand-cards">
+                        <h3>Ashok Leyland</h3>
+                        <img src={ashok} onclick={handleBrandClick} data-brand="AshokLeyland"/>
+                    </div>
+                </div>
+            </lightning-card>
+        </template>
+    </template>
+</template>

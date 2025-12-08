@@ -1,0 +1,45 @@
+<template>
+    <lightning-card title="My Orders">
+        <div class="slds-grid slds-wrap slds-p-around_medium">
+            <template for:each={bookings} for:item="book">
+                <div class="slds-col slds-size_1-of-1 slds-p-around_small slds-box slds-m-bottom_medium" key={book.Id}>
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size_1-of-3 slds-p-around_small">
+                            <template if:true={book.brandLogo}>
+                                <img src={book.brandLogo} />
+                            </template>
+                        </div>
+                        <div class="slds-col slds-size_1-of-3 slds-p-around_small">
+                            <h1><b>Booking Name:</b> {book.Name}</h1>
+                            <h1><b>Brand:</b> {book.brandName}</h1>
+                            <h1><b>Date of Delivery:</b> {book.fDate}</h1>
+                            <h1><b>Pickup Address:</b> {book.Pickup_Address__c}</h1>
+                            <h1><b>Drop Address:</b> {book.Drop_Address__c}</h1>
+                            <h1><b>Load:</b> {book.Customer_s_Load__c}</h1>
+                            <h1><b>Delivery Type:</b> {book.Delivery_Type__c}</h1>
+                            <h1><b>Status:</b> {book.Status__c}</h1>
+                        </div>
+                        <div class="slds-col slds-size_1-of-3 slds-p-around_small">
+                            <div class="slds-grid slds-grid_vertical-align-center slds-grid_align-center slds-wrap">
+                                <template if:true={book.isCompleted}>
+                                    <div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+                                        <lightning-button label="Feedback" onclick={handleClick} variant="brand" name="a"></lightning-button>
+                                    </div>
+                                </template>
+                                <div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+                                    <lightning-button label="View" onclick={handleClick} variant="brand" name="b" data-id={book.Id}></lightning-button>
+                                </div>
+                                <div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+                                    <lightning-button label="Payment Details" onclick={handleClick} variant="brand" name="c" data-id={book.paymentId}></lightning-button>
+                                </div>
+                                <div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+                                    <lightning-button label="Invoice" onclick={handleClick} variant="brand" name="d"></lightning-button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
