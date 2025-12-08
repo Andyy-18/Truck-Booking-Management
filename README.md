@@ -1,6 +1,6 @@
 # 🚚 Truck Booking Management System (Salesforce)
 
-![SFDX](https://img.shields.io/badge/Salesforce-DX-blue?logo=salesforce)
+![SFDX](https://img.shields.io/badge/Salesforce-SFDX-blue?logo=salesforce)
 ![Apex](https://img.shields.io/badge/Apex-Programming-orange)
 ![LWC](https://img.shields.io/badge/Lightning%20Web%20Components-LWC-blueviolet?logo=salesforce)
 ![Platform](https://img.shields.io/badge/Experience%20Cloud-Salesforce-00A1E0?logo=salesforce)
