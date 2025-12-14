@@ -1,126 +1,149 @@
 # 🚚 Truck Booking Management System (Salesforce)
 
-![SFDX](https://img.shields.io/badge/Salesforce-SFDX-blue?logo=salesforce)
-![Apex](https://img.shields.io/badge/Apex-Programming-orange)
-![LWC](https://img.shields.io/badge/Lightning%20Web%20Components-LWC-blueviolet?logo=salesforce)
-![Platform](https://img.shields.io/badge/Experience%20Cloud-Salesforce-00A1E0?logo=salesforce)
+![Salesforce](https://img.shields.io/badge/Salesforce-Experience%20Cloud-00A1E0?logo=salesforce)
+![Apex](https://img.shields.io/badge/Apex-Backend-orange)
+![LWC](https://img.shields.io/badge/LWC-Frontend-blueviolet)
+![SFDX](https://img.shields.io/badge/SFDX-Metadata-blue)
 
 ---
 
-A full-fledged **Salesforce Experience Cloud + LWC + Apex** application that allows customers to browse trucks, book them, track orders, and manage payments — built as part of a professional end-to-end Salesforce project.
+## 📌 Project Summary
+
+A **real-world Salesforce Experience Cloud application** that allows customers to **browse trucks, book logistics services, track orders, and manage payments**.
+
+This project demonstrates **end-to-end Salesforce development** using **Lightning Web Components, Apex, SOQL, and Experience Cloud**, designed to closely simulate a **production-style logistics booking system**.
 
 ---
 
-## 📌 **Project Overview**
+## 🎯 Business Use Case
 
-The **Truck Booking Management System** is a mini-application developed on Salesforce that enables:
+Logistics companies require a **self-service customer portal** where users can:
+- Browse trucks by brand and load capacity  
+- Book trucks with pickup and drop locations  
+- Track booking status  
+- View invoices and payment details  
 
-- Customers to book trucks based on brand and load capacity  
-- Real-time truck availability checking  
-- Viewing & managing customer orders  
-- Automated validations for weight, payments, and booking data  
-- A smooth Experience Cloud portal UI built using LWCs  
-- Salesforce backend logic using Apex controllers  
-
-This project demonstrates skills in **LWC**, **Apex**, **SFDX**, **Experience Cloud**, **Data Modeling**, and **Flows**.
+This application solves the above using **Salesforce CRM + Experience Cloud**.
 
 ---
 
-## 🏗️ **Tech Stack Used**
+## 🏗️ Tech Stack Used
 
 | Layer | Technology |
-|-------|------------|
-| Frontend | Lightning Web Components (LWC) |
+|-----|-----------|
+| UI | Lightning Web Components (LWC) |
 | Backend | Apex Classes, SOQL |
-| Platform | Salesforce CRM, Experience Cloud |
-| Storage | Custom Objects (Truck, Truck Booking, Payments, Load) |
+| Platform | Salesforce Experience Cloud |
+| Data | Custom Objects (Truck, Truck Booking, Load, Payment) |
 | Metadata | Salesforce DX (SFDX) |
-| UI | Lightning Components, NavigationMixin |
+| Navigation | NavigationMixin, UIRecordApi |
 
 ---
 
-## 📂 **Project Structure**
-```bash
-TruckBookingProject/
-│
-├── Docs/
-│   ├── Truck Booking Management.pdf
-│   ├── Experience Cloud App.pdf
-│   └── Truck.pdf
-│
-├── screenshots/
-│   └── Experience Cloud App.pdf
-│
-└── force-app/main/default/
-    ├── classes/
-    │   ├── TruckController.cls
-    │   ├── TruckController.cls-meta.xml
-    │   ├── MyOrder.cls
-    │   └── MyOrder.cls-meta.xml
-    │
-    ├── lwc/
-    │   ├── home1/
-    │   ├── booking1/
-    │   └── myOrder/
-```
+## 📸 Application Screenshots
+
+### 🏠 Home / Landing Page
+*Experience Cloud landing page with brand discovery and quick actions*
+
+![Home](screenshots/1_home.png)
 
 ---
 
-## ⚙️ **Key Features**
+### 🚚 Truck Brand Selection
+*Browse trucks by brand (Tata, Mahindra, Ashok Leyland, Eicher)*
 
-### **🔹 1. Truck Browsing & Brand Selection**
-- Users can browse trucks by brand (Tata, Ashok Leyland, Mahindra, etc.)
-- Interactive carousel UI using LWC  
-- Real-time availability fetched using Apex  
-
-### **🔹 2. Truck Booking Flow**
-- Step-by-step flow built in LWC  
-- Customer details pulled using `UIRecordApi`  
-- Dynamic booking based on selected truck  
-
-### **🔹 3. Customer Order Dashboard**
-- Displays customer bookings  
-- Shows brand, load, dates, status, payment details  
-- Deep linking using NavigationMixin (`recordPage`, `webPage`)  
-
-### **🔹 4. Apex-Powered Backend**
-- `TruckController.cls` → Fetch trucks by brand  
-- `MyOrder.cls` → Fetch logged-in user’s bookings  
-- SOQL optimized & bulk-safe
+![Brands](screenshots/2_brands.png)
 
 ---
 
-## 🧩 **Main Components**
+### 📋 Truck Listing by Brand
+*Dynamic truck listing fetched using Apex controllers*
 
-### **🟦 Apex**
-| Class | Purpose |
-|-------|---------|
-| `TruckController.cls` | Fetch trucks by brand for the booking screen |
-| `MyOrder.cls` | Retrieve orders for the customer dashboard |
+![Trucks](screenshots/3_trucks.png)
 
 ---
 
-### **🟩 Lightning Web Components**
-| LWC Component | Purpose |
-|---------------|---------|
-| `home1` | Landing page with brand selection + quick actions |
-| `booking1` | Complete booking UI + customer details + flow |
-| `myOrder` | Customer bookings page with actions (View, Payments, Feedback) |
+### 📝 Truck Booking Form
+*Validated booking form with load, pickup/drop, and payment details*
+
+![Booking](screenshots/4_booking.png)
 
 ---
 
-## 🧑‍💻 **Author**
+### ✅ Booking Confirmation
+*Successful booking confirmation with navigation to My Orders*
+
+![Success](screenshots/5_success.png)
+
+---
+
+### 📦 My Orders Dashboard
+*Customer dashboard showing bookings, invoices, and payment actions*
+
+![Orders](screenshots/6_orders.png)
+
+---
+
+## ⚙️ Key Features
+
+### 🔹 Truck Browsing & Selection
+- Brand-based truck browsing
+- Dynamic data fetched using Apex + SOQL
+- Clean, responsive LWC UI
+
+### 🔹 Booking Management
+- Step-by-step booking process
+- Load validation against truck capacity
+- Date, time, and address validations
+
+### 🔹 Customer Orders Dashboard
+- Logged-in user specific data
+- Booking status, invoice, and payment tracking
+- Secure Experience Cloud access
+
+### 🔹 Backend Architecture
+- Bulk-safe Apex controllers
+- Optimized SOQL queries
+- Clear separation of UI and business logic
+
+---
+
+## 🧩 Core Components
+
+### 🟦 Apex Classes
+| Class | Responsibility |
+|-----|----------------|
+| `TruckController.cls` | Fetch trucks by brand and availability |
+| `MyOrder.cls` | Retrieve logged-in user’s bookings |
+
+---
+
+### 🟩 Lightning Web Components
+| Component | Purpose |
+|---------|--------|
+| `home1` | Landing page and brand selection |
+| `booking1` | Complete truck booking flow |
+| `myOrder` | Customer order dashboard |
+
+---
+
+## 🧠 What This Project Demonstrates
+
+✔ Hands-on Experience Cloud development  
+✔ Strong LWC and Apex integration  
+✔ Real-world Salesforce data modeling  
+✔ Secure, user-specific data handling  
+✔ End-to-end Salesforce project ownership  
+
+---
+
+## 🧑‍💻 Author
 
 **Aninda Banerjee**  
-_Salesforce Developer @ Cognizant (CTS)_
+_Salesforce Developer @ Cognizant (CTS)_  
 📍 India  
-💼 CRM, Apex, LWC, Experience Cloud  
-🔗 Connect on LinkedIn → [Aninda Banerjee](https://www.linkedin.com/in/anindabanerjee18)
-
+🔗 LinkedIn → [Aninda Banerjee](https://www.linkedin.com/in/anindabanerjee18)
 
 ---
 
-## ⭐ **If you like this project, give the repo a star!**  
-
-
----
+## ⭐ If you like this project, give it a star!
