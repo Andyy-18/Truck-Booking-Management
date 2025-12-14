@@ -76,15 +76,23 @@ This application solves the above using **Salesforce CRM + Experience Cloud**.
 ---
 
 --- ## 📂 **Project Structure**
-bash
+## 📂 Project Structure
+
+```bash
 TruckBookingProject/
 │
 ├── Docs/
-│   ├── Truck Booking Management.pdf
 │   ├── Experience Cloud App.pdf
+│   ├── TRUCK BOOKING MANAGEMENT PROJECT.pdf
 │   └── Truck.pdf
 │
 ├── screenshots/
+│   ├── home.png
+│   ├── brands.png
+│   ├── trucks.png
+│   ├── booking.png
+│   ├── success.png
+│   ├── orders.png
 │   └── Experience Cloud App.pdf
 │
 └── force-app/main/default/
@@ -94,11 +102,11 @@ TruckBookingProject/
     │   ├── MyOrder.cls
     │   └── MyOrder.cls-meta.xml
     │
-    ├── lwc/
-    │   ├── home1/
-    │   ├── booking1/
-    │   └── myOrder/
----
+    └── lwc/
+        ├── home1/
+        ├── booking1/
+        └── myOrder/
+```
 
 ## 📸 Application Screenshots
 
