@@ -43,7 +43,8 @@ This application solves the above using **Salesforce CRM + Experience Cloud**.
 ## 📸 Application Screenshots
 
 ### 🏠 Home / Landing Page
-![Home](screenshots/home.png
+![Home](screenshots/home.png)
+
 
 ---
 
