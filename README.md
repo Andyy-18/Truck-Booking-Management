@@ -29,7 +29,27 @@ Overall, this project reflects **end-to-end Salesforce CRM development**, coveri
 
 
 ---
+---
 
+## 📘 Project Documentation
+
+For a detailed, step-by-step understanding of the application setup, configuration, and implementation, please refer to the documents below:
+
+📄 **Experience Cloud App Documentation**  
+👉 [Experience Cloud App](TruckBookingProject/Docs/Experience%20Cloud%20App.pdf)  
+*Covers Experience Cloud setup, site configuration, user access, and portal structure.*
+
+📄 **Truck Booking Management – Functional Flow**  
+👉 [Truck Booking Management System](TruckBookingProject/Docs/TRUCK%20BOOKING%20MANAGEMENT%20SYSTEM.pdf)  
+*Explains end-to-end booking flow, validations, automation, and business logic.*
+
+📄 **Lightning Web Components (LWC) Code Walkthrough**  
+👉 [LWC Code Documentation](TruckBookingProject/Docs/Truck.pdf)  
+*Provides a detailed explanation of all LWC components used in the project, including component structure, JavaScript logic, Apex integration, and UI behavior.*
+
+These documents are recommended for reviewers who want **clear insight into admin configurations, automation logic, and development flow**.
+
+---
 ## 🎯 Business Use Case
 
 Logistics companies require a **self-service customer portal** where users can:
@@ -53,6 +73,31 @@ This application solves the above using **Salesforce CRM + Experience Cloud**.
 | Metadata | Salesforce DX (SFDX) |
 | Navigation | NavigationMixin, UIRecordApi |
 
+---
+
+--- ## 📂 **Project Structure**
+bash
+TruckBookingProject/
+│
+├── Docs/
+│   ├── Truck Booking Management.pdf
+│   ├── Experience Cloud App.pdf
+│   └── Truck.pdf
+│
+├── screenshots/
+│   └── Experience Cloud App.pdf
+│
+└── force-app/main/default/
+    ├── classes/
+    │   ├── TruckController.cls
+    │   ├── TruckController.cls-meta.xml
+    │   ├── MyOrder.cls
+    │   └── MyOrder.cls-meta.xml
+    │
+    ├── lwc/
+    │   ├── home1/
+    │   ├── booking1/
+    │   └── myOrder/
 ---
 
 ## 📸 Application Screenshots
