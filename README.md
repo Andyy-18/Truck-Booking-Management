@@ -47,7 +47,7 @@ For a detailed, step-by-step understanding of the application setup, configurati
 *Covers Experience Cloud portal structure and user access.*
 
 📄 **Truck Booking Management – Functional Flow**  
-👉 [Truck Booking Management Project](TruckBookingProject/Docs/TRUCK%20BOOKING%20MANAGEMENT%20PROJECT.pdf)  
+👉 [Truck Booking Management Project](TruckBookingProject/Docs/TRUCK%20BOOKING%20MANAGEMENT%20PROJECT2.pdf)  
 *Explains end-to-end booking flow, validations, automation, and business logic.*
 
 📄 **Lightning Web Components (LWC) Code Walkthrough**  
@@ -89,7 +89,7 @@ TruckBookingProject/
 │
 ├── Docs/
 │   ├── Experience Cloud App.pdf
-│   ├── TRUCK BOOKING MANAGEMENT PROJECT.pdf
+│   ├── TRUCK BOOKING MANAGEMENT PROJECT2.pdf
 │   └── Truck.pdf
 │
 ├── screenshots/
