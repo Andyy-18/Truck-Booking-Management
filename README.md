@@ -175,8 +175,6 @@ TruckBookingProject/
 _Salesforce Developer @ Cognizant (CTS)_  
 📍 India  
 🔗 LinkedIn → [Aninda Banerjee](https://www.linkedin.com/in/anindabanerjee18) *(opens external link)*
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aninda%20Banerjee-blue?logo=linkedin)](https://www.linkedin.com/in/anindabanerjee18)
-
 
 ---
 
