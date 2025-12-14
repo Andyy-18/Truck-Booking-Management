@@ -10,7 +10,8 @@
 The following demo showcases the **complete end-to-end flow** of the application, including truck selection, booking, confirmation, and order tracking.
 ![Demo](TruckBookingProject/screenshots/TruckBooking.gif)
 
-📸 For step-by-step screenshots of each booking stage, please refer to the **`screenshots/`** folder.
+📸 For step-by-step screenshots of each booking stage, please refer to the **[screenshots folder](TruckBookingProject/screenshots/)**.
+
 ---
 
 ## 📌 Project Summary
@@ -173,7 +174,7 @@ TruckBookingProject/
 **Aninda Banerjee**  
 _Salesforce Developer @ Cognizant (CTS)_  
 📍 India  
-🔗 LinkedIn → [Aninda Banerjee](https://www.linkedin.com/in/anindabanerjee18)
+🔗 LinkedIn → <a href="https://www.linkedin.com/in/anindabanerjee18" target="_blank" rel="noopener noreferrer">Aninda Banerjee</a>
 
 ---
 
