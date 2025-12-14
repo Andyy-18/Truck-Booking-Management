@@ -5,8 +5,12 @@
 ![LWC](https://img.shields.io/badge/LWC-Frontend-blueviolet)
 ![SFDX](https://img.shields.io/badge/SFDX-Metadata-blue)
 
+## 🎬 Application Demo
+
+The following demo showcases the **complete end-to-end flow** of the application, including truck selection, booking, confirmation, and order tracking.
 ![Demo](TruckBookingProject/screenshots/TruckBooking.gif)
 
+📸 For step-by-step screenshots of each booking stage, please refer to the **`screenshots/`** folder.
 ---
 
 ## 📌 Project Summary
@@ -108,38 +112,6 @@ TruckBookingProject/
         ├── booking1/
         └── myOrder/
 ```
-
-## 📸 Application Screenshots
-
-### 🏠 Home / Landing Page
-![Home](TruckBookingProject/screenshots/home.png)
-
-
----
-
-### 🚚 Truck Brand Selection
-![Brands](TruckBookingProject/screenshots/brands.png)
-
----
-
-### 📋 Truck Listing by Brand
-![Trucks](TruckBookingProject/screenshots/trucks.png)
-
----
-
-### 📝 Truck Booking Form
-![Booking](TruckBookingProject/screenshots/booking.png)
-
----
-
-### ✅ Booking Confirmation
-![Success](TruckBookingProject/screenshots/success.png)
-
----
-
-### 📦 My Orders Dashboard
-![Orders](TruckBookingProject/screenshots/orders.png)
-`
 
 ---
 
