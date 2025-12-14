@@ -37,7 +37,7 @@ For a detailed, step-by-step understanding of the application setup, configurati
 
 📄 **Experience Cloud App Documentation**  
 👉 [Experience Cloud App](TruckBookingProject/Docs/Experience%20Cloud%20App.pdf)  
-*Covers Experience Cloud setup, site configuration, user access, and portal structure.*
+*Covers Experience Cloud portal structure and user access.*
 
 📄 **Truck Booking Management – Functional Flow**  
 👉 [Truck Booking Management Project](TruckBookingProject/Docs/TRUCK%20BOOKING%20MANAGEMENT%20PROJECT.pdf)  
