@@ -5,6 +5,8 @@
 ![LWC](https://img.shields.io/badge/LWC-Frontend-blueviolet)
 ![SFDX](https://img.shields.io/badge/SFDX-Metadata-blue)
 
+![Demo](TruckBookingProject/screenshots/TruckBooking.gif)
+
 ---
 
 ## 📌 Project Summary
