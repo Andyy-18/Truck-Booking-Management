@@ -49,27 +49,27 @@ This application solves the above using **Salesforce CRM + Experience Cloud**.
 ---
 
 ### 🚚 Truck Brand Selection
-![Brands](screenshots/brands.png)
+![Brands](TruckBookingProject/screenshots/brands.png)
 
 ---
 
 ### 📋 Truck Listing by Brand
-![Trucks](screenshots/trucks.png)
+![Trucks](TruckBookingProject/screenshots/trucks.png)
 
 ---
 
 ### 📝 Truck Booking Form
-![Booking](screenshots/booking.png)
+![Booking](TruckBookingProject/screenshots/booking.png)
 
 ---
 
 ### ✅ Booking Confirmation
-![Success](screenshots/success.png)
+![Success](TruckBookingProject/screenshots/success.png)
 
 ---
 
 ### 📦 My Orders Dashboard
-![Orders](screenshots/orders.png)
+![Orders](TruckBookingProject/screenshots/orders.png)
 `
 
 ---
