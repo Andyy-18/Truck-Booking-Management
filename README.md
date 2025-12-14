@@ -42,8 +42,6 @@ This application solves the above using **Salesforce CRM + Experience Cloud**.
 
 ## 📸 Application Screenshots
 
-## 📸 Application Screenshots
-
 ### 🏠 Home / Landing Page
 ![Home](screenshots/home.png)
 
@@ -71,6 +69,7 @@ This application solves the above using **Salesforce CRM + Experience Cloud**.
 
 ### 📦 My Orders Dashboard
 ![Orders](screenshots/orders.png)
+`
 
 ---
 
