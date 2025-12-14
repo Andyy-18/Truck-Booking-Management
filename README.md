@@ -75,7 +75,6 @@ This application solves the above using **Salesforce CRM + Experience Cloud**.
 
 ---
 
---- ## 📂 **Project Structure**
 ## 📂 Project Structure
 
 ```bash
