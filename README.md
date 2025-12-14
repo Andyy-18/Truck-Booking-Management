@@ -9,9 +9,24 @@
 
 ## 📌 Project Summary
 
-A **real-world Salesforce Experience Cloud application** that allows customers to **browse trucks, book logistics services, track orders, and manage payments**.
+A **real-world Salesforce Experience Cloud application** that enables customers to **browse trucks, book logistics services, track orders, and manage payments** through a secure self-service portal.
 
-This project demonstrates **end-to-end Salesforce development** using **Lightning Web Components, Apex, SOQL, and Experience Cloud**, designed to closely simulate a **production-style logistics booking system**.
+This project demonstrates **both Salesforce Admin and Developer capabilities**, built using **Lightning Web Components, Apex, SOQL, Flows, Validation Rules, Reports, and Dashboards**, closely simulating a **production-grade logistics booking system**.
+
+From a **Salesforce Admin perspective**, the project includes:
+- **Data security implementation** using Profiles, Permission Sets, Object & Field-Level Security  
+- **Validation Rules** to enforce business constraints (load limits, mandatory booking details, payment checks)  
+- **Record-triggered and Screen Flows** for automation and guided user processes  
+- **Custom Reports and Dashboards** for tracking bookings, deliveries, and payment status  
+
+From a **Salesforce Developer perspective**, the project showcases:
+- **Lightning Web Components (LWC)** for responsive, component-based UI  
+- **Apex controllers** for business logic and data retrieval  
+- **Optimized SOQL queries** with user-context security  
+- **Experience Cloud integration** for customer-facing functionality  
+
+Overall, this project reflects **end-to-end Salesforce CRM development**, covering **data modeling, security, automation, UI, and analytics** in a single integrated solution.
+
 
 ---
 
