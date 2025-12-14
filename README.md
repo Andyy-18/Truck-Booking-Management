@@ -42,44 +42,34 @@ This application solves the above using **Salesforce CRM + Experience Cloud**.
 
 ## 📸 Application Screenshots
 
-### 🏠 Home / Landing Page
-*Experience Cloud landing page with brand discovery and quick actions*
+## 📸 Application Screenshots
 
+### 🏠 Home / Landing Page
 ![Home](screenshots/home.png)
 
 ---
 
 ### 🚚 Truck Brand Selection
-*Browse trucks by brand (Tata, Mahindra, Ashok Leyland, Eicher)*
-
 ![Brands](screenshots/brands.png)
 
 ---
 
 ### 📋 Truck Listing by Brand
-*Dynamic truck listing fetched using Apex controllers*
-
 ![Trucks](screenshots/trucks.png)
 
 ---
 
 ### 📝 Truck Booking Form
-*Validated booking form with load, pickup/drop, and payment details*
-
 ![Booking](screenshots/booking.png)
 
 ---
 
 ### ✅ Booking Confirmation
-*Successful booking confirmation with navigation to My Orders*
-
 ![Success](screenshots/success.png)
 
 ---
 
 ### 📦 My Orders Dashboard
-*Customer dashboard showing bookings, invoices, and payment actions*
-
 ![Orders](screenshots/orders.png)
 
 ---
